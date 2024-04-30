@@ -35,7 +35,7 @@ function excluir(ra){
     //excluir tudo do aluno
     for(let i = 0; i < alunos.length; i++) { 
         let aluno = alunos[i]
-    if (aluno.cpf == ra) {
+    if (aluno.cpf = ra) {
         //remove o elemento encontrado na posição "i"
       alunos.splice(i, 1)
     }
